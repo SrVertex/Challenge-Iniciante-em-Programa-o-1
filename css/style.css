@@ -24,12 +24,8 @@ main {
     background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);
     border-radius: 15px;
     top: 20px;
-
     margin-right: 20px;
-
     right: 0;
-
-
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 
@@ -44,9 +40,7 @@ main {
     font-weight: 600;
     font-size: 20px;
     width: 380px;
-
 }
-
 
 .mensagem {
     background: none;
@@ -57,25 +51,16 @@ main {
     color: rgb(212, 212, 212);
     position: fixed;
     top: 570px;
-
     text-align: center;
     font-style: normal;
     font-size: 16px;
-
-
-
 }
-
-
-
-
 
 .imgFind {
     position: fixed;
     margin-left: 25px;
     top: 200px;
 }
-
 
 form {
     font-style: normal;
@@ -103,14 +88,10 @@ form {
     outline: none;
 }
 
-
 .buttonsCrip {
     display: flex;
     margin-top: 18px;
 }
-
-
-
 
 .imgAlert {
     color: #495057;
@@ -130,8 +111,6 @@ form p {
     margin-left: 1em;
 }
 
-
-
 .cripButtom {
     width: 328px;
     height: 67px;
@@ -143,12 +122,7 @@ form p {
     color: #ffffff;
     transition: 0.5s;
     background-size: 200% auto;
-
     background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
-
-
-
-
     border: 1px solid #000000;
     margin-right: 50px;
 }
@@ -157,9 +131,7 @@ form p {
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
-
-  
+}
 
 .descripButtom {
     width: 328px;
@@ -173,7 +145,6 @@ form p {
     border: 1px solid #0A3871;
     border-radius: 24px;
 }
-
          
   .copyButtom {
     background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
@@ -184,7 +155,6 @@ form p {
     color: white;            
     border-radius: 10px;
     display: block;
-
     width: 388px;
     height: 67px;
     top: 800px;
@@ -196,7 +166,6 @@ form p {
     color: #fff;
     text-decoration: none;
   }
- 
 
 .mensagem::placeholder{
     color: #dadada;
@@ -205,10 +174,6 @@ form p {
 .mensagem:focus {
     outline: none;
 }
-
-
-
-
 
 .copyright {
     margin: 20px;
@@ -221,26 +186,6 @@ form p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 480px) {
     .rightBox {
         width: 527px;
@@ -248,17 +193,9 @@ form p {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        
         position: absolute;
-
         left: -11%;
-
         top: 1207px;
-
-
-
-        
-
         background: #FFFFFF;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
@@ -268,7 +205,6 @@ form p {
         opacity: 0%;
         padding: 0%;
     }
-
 
     .cripButtom {
         display: block;
@@ -304,29 +240,16 @@ form p {
         background-size: 200% auto;
         background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
         border: 1px solid #000000;
-
         top: 220px;
         position: absolute;
         margin-left: 40px;
-
     }
 
-.copyButtom:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
-
-
-
-
-
-
-
-
-
-
-
+    .copyButtom:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
 
     .tituloMensagens {
         top: 40px;
@@ -334,7 +257,6 @@ form p {
         font-size: 30px;
         left: 13%;
         position: absolute;
-
     }
 
     .mensagem {
@@ -358,11 +280,9 @@ form p {
         width: 600px;
     }
 
-
     main {
         margin-left: 25px;
     }
-
 
     .copyright {
         position: relative;
@@ -376,11 +296,7 @@ form p {
     .logoAluraTop {
         margin: 40px 40px;
     }
-
 }
-
-
-
 
 /*
 

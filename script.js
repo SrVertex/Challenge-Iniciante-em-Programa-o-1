@@ -12,7 +12,6 @@ function buttonEncrip() {
 }
 
 
-
 function encript(stringDesencrip){
 
     let matrizCodigo = [["e" , "enter"], ["i" , "imes"], ["a" , "ai"], ["o" , "ober"], ["u" , "ufat"]];
