@@ -1,0 +1,140 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+.logoAluraTop {
+    position: absolute;
+    margin: 40px 84px;
+}
+
+.rightBox {
+    position: absolute;
+    padding: 10px;
+    left: 72%;
+    width: 400px;
+    height: 944px;
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);
+    border-radius: 15px;
+    top: 40px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.rightBox h1{
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 32px 32px 20px 32px;
+}
+
+.rightBox p {
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #ffffff;
+    padding: 0px 32px 32px 32px;
+}
+
+.imgFind {
+    padding: 40% 32px 32px 32px;
+    top: 20%;
+}
+
+form {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+form div {
+    position: absolute;
+    color: #495057;
+    width: 352px;
+    height: 20px;
+    top: 731px;
+
+}
+
+form img {
+    position: absolute;
+}
+
+form p {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 2em;
+}
+
+.cripButtom {
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);  
+    padding: 24px;
+    position: absolute;
+    top: 765px;
+    left: 0%;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.descripButtom {
+    background: #D8DFE8;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #0A3871;
+    padding: 24px;
+    position: absolute;
+    top: 765px;
+    left: 60%;
+    border: 1px solid #0A3871;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+
+    
+}
+
+
+.copyright {
+    position: relative;
+    top: 1050px;
+    margin: 20px;
+    padding: 20px;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #343A40;
+}

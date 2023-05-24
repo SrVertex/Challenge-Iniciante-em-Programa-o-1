@@ -1,0 +1,232 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+.logoAluraTop {
+    position: absolute;
+    margin: 40px 84px;
+}
+
+.rightBox {
+    position: absolute;
+    padding: 10px;
+    left: 72%;
+    width: 400px;
+    height: 944px;
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);
+    border-radius: 15px;
+    top: 40px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.rightBox h1{
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: 120%;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 32px 32px 20px 32px;
+}
+
+.rightBox p {
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #ffffff;
+    padding: 0px 32px 32px 32px;
+}
+
+.imgFind {
+    padding: 40% 32px 32px 32px;
+    top: 20%;
+}
+
+form {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.textDigitar {
+    margin-right: 400px;
+    position: absolute;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+}
+
+.textDigitar::placeholder{
+    color: #4274b0;
+}
+
+form div {
+    color: #495057;
+    width: 352px;
+    height: 20px;
+    top: 731px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+}
+
+form img {
+    position: absolute;
+}
+
+form p {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 2em;
+}
+
+.buttonsCrip {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 0px;
+    top: 765px;
+}
+
+
+.cripButtom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);  
+    border: 1px solid #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.descripButtom {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center; 
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.copyright {
+    position: relative;
+    top: 1050px;
+    margin: 20px;
+    padding: 20px;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #343A40;
+}
+
+@media screen and (max-width: 480px) {
+    .rightBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        
+        position: absolute;
+
+
+
+
+
+        width: 427px;
+    height: 186px;
+
+
+        left: 30%;
+        top: 707px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .imgFind {
+        scale: 0%;
+        padding: 0%;
+    }
+
+    .rightBox h1 {
+        padding: 0%;
+        color: #343A40;
+        position: absolute;
+        top: 50px;
+        left: 20%;
+        width: 300px;
+    }
+
+    .rightBox p {
+        position: absolute;
+        color: #495057;
+        top: 150px;
+        left: 10px;
+    }
+
+
+    .copyright {
+        position: relative;
+        top: 1050px;
+        left: 40%;
+    }
+
+
+
+}

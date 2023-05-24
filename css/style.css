@@ -1,0 +1,504 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.logoAluraTop {
+    margin: 40px 84px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 55px;
+    margin-left: 78px;
+}
+
+.rightBox {
+    position: fixed;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 400px;
+    height: 850px;
+    background: rgb(2,0,36);
+    background: linear-gradient(152deg, rgba(2,0,36,1) 5%, rgba(9,9,121,1) 60%, rgba(51,0,255,1) 100%);
+    border-radius: 15px;
+    top: 20px;
+
+    margin-right: 20px;
+
+    right: 0;
+
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.tituloMensagens {
+    background: none;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    position: fixed;
+    top: 540px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    width: 380px;
+
+}
+
+
+.mensagem {
+    background: none;
+    border-radius: 15px;
+    border: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: rgb(212, 212, 212);
+    position: fixed;
+    top: 570px;
+
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+
+
+
+}
+
+
+
+
+
+.imgFind {
+    position: fixed;
+    margin-left: 25px;
+    top: 200px;
+}
+
+
+form {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.textDigitar {
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: transparent;
+    border: none;
+}
+
+::placeholder{
+    color: #4274b0;
+}
+
+.textDigitar:focus {
+    outline: none;
+}
+
+
+.buttonsCrip {
+    display: flex;
+    margin-top: 18px;
+}
+
+
+
+
+.imgAlert {
+    color: #495057;
+    display: flex;
+    margin-left: 0.5em;
+    margin-top: 8em;
+}
+
+form p {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-left: 1em;
+}
+
+
+
+.cripButtom {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+    background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+
+
+
+
+    border: 1px solid #000000;
+    margin-right: 50px;
+}
+
+.cripButtom:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+
+.descripButtom {
+    width: 328px;
+    height: 67px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center; 
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+         
+  .copyButtom {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+     text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+
+    width: 388px;
+    height: 67px;
+    top: 800px;
+    position: fixed;
+  }
+
+  .copyButtom:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+.mensagem::placeholder{
+    color: #dadada;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+
+
+
+
+.copyright {
+    margin: 20px;
+    position: relative;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    color: #343A40;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .rightBox {
+        width: 527px;
+        height: 356px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        position: absolute;
+
+        left: -11%;
+
+        top: 1207px;
+
+
+
+        
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .imgFind {
+        opacity: 0%;
+        padding: 0%;
+    }
+
+
+    .cripButtom {
+        display: block;
+        margin-top: 30px;
+        width: 500px;
+        height: 117px;
+        border-radius: 40px;
+        font-size: 40px;
+    }
+
+    .descripButtom {
+        display: block;
+        margin-top: 30px;
+        width: 500px;
+        height: 117px;
+        font-size: 40px;
+    }
+
+    .buttonsCrip {
+        display: block;
+        margin-top: 18px;
+        margin-left: 40px;
+    }
+
+    .copyButtom{
+        display: block;
+        margin-top: 30px;
+        width: 400px;
+        height: 87px;
+        font-size: 30px;
+        color: #ffffff;
+        transition: 0.5s;
+        background-size: 200% auto;
+        background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+        border: 1px solid #000000;
+
+        top: 220px;
+        position: absolute;
+        margin-left: 40px;
+
+    }
+
+.copyButtom:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    .tituloMensagens {
+        top: 40px;
+        color: #000000;
+        font-size: 30px;
+        left: 13%;
+        position: absolute;
+
+    }
+
+    .mensagem {
+        top: 100px;
+        font-size: 20px;
+        color: #495057; 
+        margin-left: 45px;
+        position: absolute;
+    }
+
+    .mensagem::placeholder {
+        color: #9e9e9e;
+    }
+
+    .textDigitar {
+        padding: 20px;
+        width: 550px;
+    }
+
+    form {
+        width: 600px;
+    }
+
+
+    main {
+        margin-left: 25px;
+    }
+
+
+    .copyright {
+        position: relative;
+        top: 550px;
+        display: flex;
+        margin: 50px;
+        padding: 20px;
+        left: 35%;
+    }
+
+    .logoAluraTop {
+        margin: 40px 40px;
+    }
+
+}
+
+
+
+
+/*
+
+@media screen and (max-width: 900px) {
+    .rightBox {
+        width: 527px;
+        height: 356px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        position: absolute;
+
+        left: 3%;
+
+        top: 967px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+    }
+
+    .imgFind {
+        opacity: 0%;
+        padding: 0%;
+    }
+
+    .cripButtom {
+        width: 800px;
+        height: 87px;
+        font-size: 30px;
+        margin-right: 0px;
+        display: block;
+    }
+
+    .descripButtom {
+        width: 800px;
+        height: 87px;
+        font-size: 30px;
+        left: 18%;
+        position: relative;
+        display: block;
+    }
+
+    .buttonsCrip {
+        position: relative;
+        left: 10px;
+    }
+
+    .copyButtom{
+        display: block;
+        margin-top: 30px;
+        width: 400px;
+        height: 87px;
+        font-size: 30px;
+        color: #ffffff;
+        transition: 0.5s;
+        background-size: 200% auto;
+        background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%);
+        border: 1px solid #000000;
+        top: 220px;
+        position: absolute;
+        margin-left: 40px;
+
+    }
+
+    .copyButtom:hover {
+        background-position: right center;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+
+    .tituloMensagens {
+        top: 40px;
+        color: #000000;
+        font-size: 30px;
+        left: 13%;
+        position: absolute;
+
+    }
+
+    .mensagem {
+        top: 100px;
+        font-size: 20px;
+        color: #495057; 
+        margin-left: 45px;
+        position: absolute;
+    }
+
+    .mensagem::placeholder {
+        color: #9e9e9e;
+    }
+
+    .textDigitar {
+        padding: 20px;
+        width: 550px;
+    }
+
+    form {
+        width: 600px;
+    }
+
+
+    main {
+        margin-left: 25px;
+    }
+
+    .copyright {
+        position: relative;
+        top: 550px;
+        display: flex;
+        margin: 50px;
+        padding: 20px;
+        left: 28%;
+    }
+
+    .logoAluraTop {
+        margin: 40px 40px;
+    }
+}
+*/
